@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-screen{
+    background-image: url(./IMG-file/Untitled.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 598px;
+}
+.navbar{
+    gap: 650px;
+    padding-top: px;
+    display: flex; 
+    color: white;
+}
+.navbar img{
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 90px;
+    height: 50px;
+}
+.navbar .ul1 li{
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style: none;
+}
+.navbar ul{
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+    gap:20px ;
+    cursor: pointer;
+}
+#lock{
+    font-size: 25px;
+}
+.first-screen h1{
+    color: white;
+    font-size: 50px;
+    padding-top:70px ;
+    padding-left: 50px;
+}
+.first-screen h5{
+    color: white;
+    font-size: 20px;
+    padding-top:50px ;
+    padding-left: 50px;
+}
+.b1{
+    color: rgb(57, 57, 240);
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px transparent;
+    font-size:16px;
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: rgb(196, 190, 190) ;
+}
+.b2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.b2:hover{
+    background-color: #263a5f;
+}
+.sec-screen{
+    height: 600px;
+    background-color: white;
+}
+.sec-screen ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 70px;
+    font-size: 20px;
+}
+.flexbox1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.flexbox1 div{
+    margin-top: 70px;
+    width: 275px;
+    height: 380px;
+}
+.box1{
+    background-image: url(./IMG-file/top\ tanks.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+.box1 h5{
+    padding-left: 10px;
+    padding-top: 250px;
+    font-size: 25px;
+}
+.box1 p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.flexbox1 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 40%;
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.flexbox1 button:hover{
+    background-color: rgb(196, 190, 190);
+}
+.box2{
+    background-image: url(./IMG-file/eyewear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+
+.box2 h5{
+    padding-left: 10px;
+    padding-top: 250px;
+    font-size: 25px;
+}
+.box2 p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.box3{
+    background-image: url(./IMG-file/heel.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+.box3 h5{
+    padding-left: 10px;
+    padding-top: 250px;
+    font-size: 25px;
+}
+.box3 p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.thrd-screen{
+    background-color: #f1eded;
+    height: 750px;
+}
+.flexbox2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.thrd-screen h1{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.flexbox2 img{
+    width: 200px;
+
+}
+.flexbox2 div{
+    width: 200px;
+}
+.flexbox3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.flexbox3 img{
+    width: 200px;
+    padding-top: 20px;
+}
+#ul{
+    border-bottom: 3px solid rgb(108, 212, 238);
+}
+h5{
+    font-size: 16px;
+}
+.frth-screen{
+    height: 600px;
+    background-image: url(./IMG-file/bgi2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+.frth-screen h3{
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.frth-screen h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.frth-screen p{
+    padding-left: 50px;
+    font-size: 18px;
+}
+.frth-screen h4{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.frth-screen button{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 120px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: 1px transparent;
+    cursor: pointer;
+}
+.frth-screen button:hover{
+    background-color: rgb(196, 190, 190);
+}
+.fifth-screen{
+    background-color: #f1eded;
+    height: 350px; 
+}
+.flexbox4{
+    display: flex;
+    gap: 50px;
+    padding-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.boxes .fa{
+    font-size: 30px;
+}
+.boxes h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.boxes p{
+    row-gap: 5px;
+}
+.sixth-screen{
+    height:max-content;
+    background-color:white;
+    justify-content: center;
+}
+.sixth-screen h2{
+    padding-left: 50px;
+}
+.flexbox5{
+    padding-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.box img{
+    width: 80px;
+    height: 50px;
+    padding-left: 50px;
+}
+.box h2{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.box ul{
+    padding-top: 20px;
+}
+.box li{
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.boxx{
+    padding-left: 40px;
+}
+.boxx input{
+    margin-top: 20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 180px;
+}
+.boxx button{
+    color: white;
+    background-color: rgb(57, 57, 240);;
+    margin-top: 20px;
+    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px transparent;
+    cursor: pointer;
+}
+.boxx button:hover{
+    background-color: #2f4774;
+}
+.flexbox6{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 700px;
+}
+.flexbox6 p{
+    padding-left: 50px;
+}
+.flexbox6 ol{
+    display: flex;
+    gap: 20px;
+}
